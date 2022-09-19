@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+   font-family: "BookAntiqua";
+   src: url(../fonts/BookAntiqua-Italic.woff2) format("woff2"), url("../fonts/BookAntiqua-Italic.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style:normal;
+}
+
+.title{
+   font-family: "Montserrat", serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 60px;
+   padding-top: 20px;
+   color: rgb(208, 34, 138);
+   text-shadow: 5px 5px 5px rgba(168, 171, 29, 0.523);
+   text-decoration: underline;
+}
+.class__h{
+   font-family: "BookAntiqua", serif;
+   color: blue;
+   text-decoration: none;
+   text-shadow: 5px 5px 5px rgba(168, 171, 29, 0.523), 3px 3px 3px #000;
+   font-size: 40px;
+   margin-top: 10px;
+}
+
+.japan p{
+   font-family: "BookAntiqua", serif;
+   font-size: 20px;
+   color: rgb(63, 125, 18);
+   line-height: 45px;
+   padding: 10px;
+}
+.japan span{
+   font-family: "Montserrat", serif;
+   font-weight: 400;
+   text-decoration: underline;
+   color: red;
+}
+
+.image {
+   padding: 10px;
+}
+.relief__japan p {
+   font-family: "Montserrat", serif;
+   font-weight: 500;
+   text-decoration: overline;
+   text-indent: 15px;
+   font-size: 18px;
+   color: #d35013;
+}
+.relief__h {
+   font-family: "BookAntiqua", serif;
+   font-size: 40px;
+   color: black;
+   text-shadow: 5px 5px 5px rgba(161, 22, 221, 0.588);
+   text-decoration: none;
+}
+.climat__japan span{
+   font-size: 30px;
+}
+.climat__japan p{
+   font-family: "Montserrat", serif;
+   font-weight: 700;
+   text-align: justify;
+   text-transform: uppercase;
+   text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.589), 5px 5px 8px rgba(74, 5, 5, 0.686), 4px -5px 4px rgba(168, 171, 29, 0.523);
+   font-size: 20px;
+   color: #000;
+}
+.climat__h {
+   font-family: "BookAntiqua", serif;
+   color: fuchsia;
+   text-shadow: 3px 3px 6px #000, 6px 6px 3px rgba(74, 5, 5, 0.686);
+   letter-spacing: 10px;
+   text-decoration: none;
+}
+
+.list-climat li{
+   font-size: 20px;
+   color: rgba(96, 44, 7, 0.788);
+   text-shadow: 3px 3px 4px rgba(42, 42, 179, 0.373);
+   word-spacing: 5px;
+   padding-top: 15px;
+   text-transform: capitalize;
+}
+.footer{
+   font-family: "Montserrat", serif;
+   font-weight: 700;
+   text-align: center;
+   font-size: 40px;
+   margin: 30px;
+   color: darkorange;
+}
+.footer p{
+   text-align: right;
+}
+.footer span{
+   text-decoration: line-through;
+   color: red;
+}
